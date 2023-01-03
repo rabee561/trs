@@ -1,0 +1,42 @@
+// Theme colors
+
+$mor: #A269C5;
+$ligth: #ffffff;
+$border: #403C5F;
+$black: black;
+$gri: #F7F7F7;
+$dark-gri: #9C97C5;
+$dark-ligth: #D1D1D1;
+
+
+
+
+// btn focus
+$btn-focus-box-shadow: none !important;
+
+// mobile
+$max-mobil: "max-width:767px";
+$max-tab: "max-width:992px";
+
+
+// line
+@mixin line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+@mixin line-1{
+    width: 50px;
+    height: 10px;
+    background-color: $mor;
+    margin: 0 10px;
+    border-radius: 16px;
+}
+@mixin line-2{
+    width: 80px;
+    height: 10px;
+    background-color: $border;
+    margin: 0 10px;
+    border-radius: 16px;
+}
